@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ebfc7838-1173-4ddb-b616-65f9d2050fef": {
+      "ProjectGuid": "ebfc7838-1173-4ddb-b616-65f9d2050fef",
+      "DisplayName": "VectorContainerBasics",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5adab721-cb6c-4ef5-89eb-20ec51a13cfc": {
+      "ProjectGuid": "5adab721-cb6c-4ef5-89eb-20ec51a13cfc",
+      "DisplayName": "Engine",
+      "ColorIndex": 1
+    },
+    "241da633-df06-4cb7-b4b3-88d305126338": {
+      "ProjectGuid": "241da633-df06-4cb7-b4b3-88d305126338",
+      "DisplayName": "TrafficLights",
+      "ColorIndex": 2
+    },
+    "2bffbad1-92ba-4817-afed-06f602b692dc": {
+      "ProjectGuid": "2bffbad1-92ba-4817-afed-06f602b692dc",
+      "DisplayName": "RotatingCards",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

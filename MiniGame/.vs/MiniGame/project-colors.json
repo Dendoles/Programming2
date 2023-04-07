@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5de75a87-d5d0-41ef-a52a-2a51f2e5d0cc": {
+      "ProjectGuid": "5de75a87-d5d0-41ef-a52a-2a51f2e5d0cc",
+      "DisplayName": "PowerUpTest",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5adab721-cb6c-4ef5-89eb-20ec51a13cfc": {
+      "ProjectGuid": "5adab721-cb6c-4ef5-89eb-20ec51a13cfc",
+      "DisplayName": "Engine",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
