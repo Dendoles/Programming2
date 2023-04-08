@@ -5,7 +5,12 @@
       "ProjectGuid": "a547842c-c001-4584-8360-24881c1324a8",
       "DisplayName": "Classes2Basics",
       "ColorIndex": 0
+    },
+    "a8cab2b4-3675-4fb0-949e-de67e96c644f": {
+      "ProjectGuid": "a8cab2b4-3675-4fb0-949e-de67e96c644f",
+      "DisplayName": "Smileys",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
