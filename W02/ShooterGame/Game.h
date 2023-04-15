@@ -1,5 +1,8 @@
 #pragma once
 #include "BaseGame.h"
+#include <vector>
+class Enemy;
+
 class Game : public BaseGame
 {
 public:
@@ -27,4 +30,13 @@ private:
 	void Initialize();
 	void Cleanup( );
 	void ClearBackground( ) const;
+
+	void InitializeEnemies();
+	void DrawEnemies() const;
+	//void UpdateEnemies(float elapsedSec);
+
+	//Member variables
+	const int m_NumberOfEnemies;
+	std::vector<Enemy*> m_pEnemies;
+
 };

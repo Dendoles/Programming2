@@ -1,8 +1,10 @@
 #include "pch.h"
 #include "Game.h"
+#include "Enemy.h"
 
 Game::Game( const Window& window ) 
-	:BaseGame{ window }
+	:BaseGame{ window },
+	m_NumberOfEnemies{40}
 {
 	Initialize();
 }
@@ -14,7 +16,7 @@ Game::~Game( )
 
 void Game::Initialize( )
 {
-	
+	InitializeEnemies();
 }
 
 void Game::Cleanup( )
@@ -38,6 +40,8 @@ void Game::Update( float elapsedSec )
 void Game::Draw( ) const
 {
 	ClearBackground( );
+
+	DrawEnemies();
 }
 
 void Game::ProcessKeyDownEvent( const SDL_KeyboardEvent & e )
@@ -108,3 +112,32 @@ void Game::ClearBackground( ) const
 	glClearColor( 0.0f, 0.0f, 0.3f, 1.0f );
 	glClear( GL_COLOR_BUFFER_BIT );
 }
+
+void Game::InitializeEnemies()
+{
+	const float widthOfEnemy{ GetViewPort().width / 2 * float(m_NumberOfEnemies)};
+	const float heightOfEnemy{ widthOfEnemy};
+	const float border{widthOfEnemy * 0.5f};
+	Point2f centerPositionOfEnemy{Point2f{0,0}};
+
+	for(int i{}; i < m_NumberOfEnemies; ++i)
+	{
+		m_pEnemies.push_back( new Enemy{ centerPositionOfEnemy,widthOfEnemy,heightOfEnemy });
+		centerPositionOfEnemy.x += border;
+	}
+}
+void Game::DrawEnemies() const
+{
+	for(int i{}; i < m_NumberOfEnemies; i++)
+	{
+		m_pEnemies[i]->Draw();
+	}
+
+}
+//void Game::UpdateEnemies(float elapsedSec)
+//{
+//	for (int i{}; i < m_NumberOfEnemies; i++)
+//	{
+//		m_pEnemies[i]->Update(elapsedSec);
+//	}
+//}

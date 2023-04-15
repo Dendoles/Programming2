@@ -10,7 +10,22 @@
       "ProjectGuid": "a8cab2b4-3675-4fb0-949e-de67e96c644f",
       "DisplayName": "Smileys",
       "ColorIndex": 1
+    },
+    "061c7963-8cd6-4585-bab6-1186e3268fec": {
+      "ProjectGuid": "061c7963-8cd6-4585-bab6-1186e3268fec",
+      "DisplayName": "ShooterGame",
+      "ColorIndex": 2
+    },
+    "5adab721-cb6c-4ef5-89eb-20ec51a13cfc": {
+      "ProjectGuid": "5adab721-cb6c-4ef5-89eb-20ec51a13cfc",
+      "DisplayName": "Engine",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }
